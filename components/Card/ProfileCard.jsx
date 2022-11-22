@@ -3,7 +3,7 @@ import "./Card.css"
 function ProfileCard({ image, title }) {
 	return (
 		<>
-			<div>
+			<div className="card">
 				<h1>{title}</h1>
 				<img src={image} alt="" />
 			</div>
