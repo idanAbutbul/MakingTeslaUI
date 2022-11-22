@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
+//import Header from "./components/Header";
+//import NavBar from "./components/NavBar";
 import ProfileCard from "./components/Card/ProfileCard";
 import AlexaImage from "./images/alexa.png";
 import CortanaImage from "./images/cortana.png";
