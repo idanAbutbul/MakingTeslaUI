@@ -31,3 +31,45 @@
 .NavBar {
 	color: blue;
 }
+#fullpage.no-scroll{
+    overflow-y: hidden;
+    max-height: 100vh;
+}
+
+.section{
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+
+}
+
+img {  
+    max-width: 100%;  
+    height: auto;  
+}  
+.content{
+    position: fixed;
+    top:20%;
+    transform: translateX(-50);
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color:var(--primary--color);
+}
+.title{
+font-size: 2.5rem;
+font-weight: bold;
+margin-bottom: 0.5rem;
+}
+.subtitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.subtitle a{
+    color: inherit;
+}
+.dyn-height {
+    width:100px;
+    max-height:250px;
+    overflow-y:scroll;
+}

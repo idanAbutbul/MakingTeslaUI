@@ -1,0 +1,49 @@
+.Header{
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+}
+.headerLeft{
+    display: block;
+    overflow: hidden;
+    padding:0 2rem;
+}
+.Logo{
+    height: 100%;
+    width: 13rem;
+}
+.headerMid{
+    display: flex;
+    align-items: center;
+    
+}
+.headerRight{
+    margin:auto 0;
+    margin-right: 1rem;
+    padding:0 2rem;
+    
+    
+}
+
+.Header span a:hover {
+    background:gray;
+    transition: background-color 0.33s ease;
+}
+.Header span a{
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border-radius: 1.2rem;
+    color:#393c41;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
